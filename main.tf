@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "one" {
   count                  = 4
-  ami                    = "ami-0ecb62995f68bb549"
+  ami                    = "ami-0199ac7c9fbf9ed83"
   instance_type          = "c7i-flex.large"
   key_name               = "rahamdocker"
   vpc_security_group_ids = ["sg-0f9c92c1376b173cf"]
